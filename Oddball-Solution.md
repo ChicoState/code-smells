@@ -1,3 +1,24 @@
-  ```![image text](https://cdn.discordapp.com/attachments/679040154589200424/686643837648502819/unknown.png)```
+public class LoadUserProfileAction extends Action{
+  .
+  .
+  . 
+  return process("ViewAction");
+}
 
-An Oddball solution is having multiple solutions for a single problem
+public class UploadAction extends Action{
+  .
+  .
+  . 
+  return process("ViewAction");
+}
+
+public class ShowLoginAction extends Action{
+  .
+  .
+  . 
+  return viewAction();
+}
+
+This is harmful because it makes one solution different from the others used and so it has to be handled differently.
+It should be fixed by changing the code to match the form of the other solutions.
+To recognize this smell, look for a single solution that is formatted differently that the others.
