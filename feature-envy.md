@@ -32,7 +32,9 @@ This formatting should be a feature of the phone class.
 (found from [Coding Horror](https://blog.codinghorror.com/code-smells/))
 (found from [Code Smells](https://elearning.industriallogic.com/gh/submit?Action=PageAction&album=recognizingSmells&path=recognizingSmells/featureEnvy/featureEnvyExample&devLanguage=Java))
 
-
+## How can you recognize it?
+* If you're rewriting functionality for an object, you probably aren't utilizing the object's full capabilities.
+* If you are adding functionality to an object rather than using it's existing interface, then you might be creating some feature envy.
 
 ## Why is it considered harmful to software design?
 
