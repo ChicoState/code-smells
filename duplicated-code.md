@@ -3,7 +3,7 @@
 ## How to recognize Duplicated Code
 
 [Sourced From Wikipedia](https://en.wikipedia.org/wiki/Duplicate_code)
-When two sections or functions do the same thing, it is code duplication. 
+When two sections or functions do the same thing, it is code duplication. Some algorithms to detect code duplication are: Baker's algorithm, Rabin–Karp string search algorithm. Using Abstract Syntax Trees, Visual clone detection, count Matrix Clone Detection, Locality-sensitive hashing, and Anti-unification.
 
 ## Duplicated Code example:
 
