@@ -1,13 +1,14 @@
-### Duplicated Code!
+# Duplicated Code!
 
-#### How to recognize Duplicated Code
-
-When two sections or functions do the same thing, it is code duplication. 
-
-#### Duplicated Code example:
+## How to recognize Duplicated Code
 
 [Sourced From Wikipedia](https://en.wikipedia.org/wiki/Duplicate_code)
-```c++
+When two sections or functions do the same thing, it is code duplication. 
+
+## Duplicated Code example:
+
+[Sourced From Wikipedia](https://en.wikipedia.org/wiki/Duplicate_code)
+```cpp
 extern int array_a[];
 extern int array_b[];
  
@@ -25,3 +26,16 @@ for (int i = 0; i < 4; i++)
 
 int average_b = sum_b / 4;
 ```
+
+Can be replaced with
+
+```cpp
+int calc_average_of_four(int* array) {
+   int sum = 0;
+   for (int i = 0; i < 4; i++)
+       sum += array[i];
+
+   return sum / 4;
+}
+```
+
