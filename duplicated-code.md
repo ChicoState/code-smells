@@ -2,7 +2,7 @@
 
 ## How to recognize Duplicated Code
 
-[Sourced From Wikipedia](https://en.wikipedia.org/wiki/Duplicate_code)
+[Sourced From Wikipedia](https://en.wikipedia.org/wiki/Duplicate_code)  
 When two sections or functions do the same thing, it is code duplication. Some algorithms to detect code duplication are: Baker's algorithm, Rabin–Karp string search algorithm. Using Abstract Syntax Trees, Visual clone detection, count Matrix Clone Detection, Locality-sensitive hashing, and Anti-unification.
 
 ## Duplicated Code example:
@@ -39,3 +39,10 @@ int calc_average_of_four(int* array) {
 }
 ```
 
+## Why is it bad design?
+
+Because if you need to change the functionality of anything that is duplicated, you have to change it in every place it is duplicated. If it was abstracted into a single function, you'd only have to change that function
+
+## How should it be fixed?
+
+All duplicated code that does the same functionality should be abstracted into a single function.
