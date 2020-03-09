@@ -29,6 +29,9 @@ Context smells in software design can impair or disrupt the design and quality a
 
 found from [Preprints.org](https://webcache.googleusercontent.com/search?q=cache:a67NUQwOZWoJ:https://www.preprints.org/manuscript/201810.0059/v1/download+&cd=13&hl=en&ct=clnk&gl=us)
 
-    Let’s say you have a sub class called “Class B” which inherits from a Super Class called “Class A”. Let’s also say that Class A contains the functions: Function 1, Function 2, Function 3, Function 4 and Function 5. If Class B only uses Function 1 and Function 2, you can consider making a new class called “Class C” from which Class A and Class B inherit. Class C would now contain Function 1 and Function 2 and Class A would not. 
+Let’s say you have a sub class called “Class B” which inherits from a Super Class called “Class A”. 
+Let’s also say that Class A contains the functions: Function 1, Function 2, Function 3, Function 4 and Function 5. 
+If Class B only uses Function 1 and Function 2, you can consider making a new class called “Class C” from which Class A and Class B inherit. 
+Class C would now contain Function 1 and Function 2 and Class A would not. 
 
 found from [Refactoring Guru](https://refactoring.guru/smells/refused-bequest)
